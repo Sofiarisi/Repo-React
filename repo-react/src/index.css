@@ -1,0 +1,13 @@
+/* src/index.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif; /* Usamos una fuente más moderna */
+  background-color: #f7f7f7; /* Un fondo gris claro como en la imagen */
+  color: #333;
+}
+
+* {
+  box-sizing: border-box;
+}

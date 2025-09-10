@@ -1,0 +1,68 @@
+/* src/App.css */
+
+/* Estilos para el contenedor del Header */
+.header {
+  display: flex;
+  justify-content: space-between; /* Alinea los hijos a los extremos */
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.header-left, .header-right {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Espacio entre elementos */
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: #d9534f; /* Color naranja al pasar el mouse */
+}
+
+.icon {
+  font-size: 24px;
+}
+
+
+/* Estilos para la sección principal (Hero) */
+.hero-section {
+  display: flex;
+  flex-direction: column; /* Alinea los elementos en una columna */
+  justify-content: center; /* Centra verticalmente */
+  align-items: center; /* Centra horizontalmente */
+  height: 80vh; /* Ocupa el 80% de la altura de la pantalla */
+  text-align: center;
+}
+
+.logo {
+  font-size: 120px; /* Tamaño de fuente gigante */
+  font-weight: bold;
+  color: #d9534f; /* Color naranja */
+  margin: 0;
+}
+
+/* Estilo especial para la "IA" del logo */
+.logo-accent {
+  font-family: monospace; /* Usamos una fuente diferente para simular el pulso */
+  letter-spacing: -5px;
+}
+
+.subtitle {
+  font-size: 20px;
+  color: #555;
+  margin-top: 10px;
+}
+
+.author {
+  font-size: 14px;
+  color: #888;
+  margin-top: 20px;
+}
