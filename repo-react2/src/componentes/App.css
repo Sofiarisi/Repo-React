@@ -1,0 +1,263 @@
+/* src/componentes/App.css */
+
+/* Estilos para el contenedor del Header */
+.header {
+  display: flex;
+  justify-content: space-between; /* Alinea los hijos a los extremos */
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.header-left, .header-right {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Espacio entre elementos */
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: #d9534f; /* Color naranja al pasar el mouse */
+}
+
+.icon {
+  font-size: 24px;
+}
+
+
+/* Estilos para la sección principal (Hero) */
+.hero-section {
+  display: flex;
+  flex-direction: column; /* Alinea los elementos en una columna */
+  justify-content: center; /* Centra verticalmente */
+  align-items: center; /* Centra horizontalmente */
+  height: 80vh; /* Ocupa el 80% de la altura de la pantalla */
+  text-align: center;
+}
+
+.logo {
+  font-size: 120px; /* Tamaño de fuente gigante */
+  font-weight: bold;
+  color: #d9534f; /* Color naranja */
+  margin: 0;
+}
+
+/* Estilo especial para la "IA" del logo */
+.logo-accent {
+  font-family: monospace; /* Usamos una fuente diferente para simular el pulso */
+  letter-spacing: -5px;
+}
+
+.subtitle {
+  font-size: 20px;
+  color: #555;
+  margin-top: 10px;
+}
+
+.author {
+  font-size: 14px;
+  color: #888;
+  margin-top: 20px;
+}
+/* src/componentes/App.css */
+
+/* --- Estilos Generales de Secciones --- */
+.section-title {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.section-description {
+  font-size: 18px;
+  color: #666;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 50px;
+  line-height: 1.6;
+}
+
+/* --- Estilos de la sección "Sobre nosotros" --- */
+.about-section {
+  padding: 80px 40px;
+  text-align: center;
+}
+
+.team-heading {
+  font-size: 28px;
+  font-weight: 600;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.team-members-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap; /* Para que se adapte en pantallas pequeñas */
+}
+
+.team-member-card {
+  text-align: center;
+  width: 180px;
+}
+
+.member-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.member-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 0 5px;
+}
+
+.member-role {
+  font-size: 14px;
+  color: #777;
+}
+
+/* --- Estilos de la sección "Beneficios" --- */
+.benefits-section {
+  padding: 80px 40px;
+  background-color: #f9f9f9;
+}
+
+.benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.benefit-card {
+  background-color: #ffffff;
+  padding: 30px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.benefit-icon {
+  font-size: 40px;
+  margin-bottom: 15px;
+  display: block;
+}
+
+.benefit-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0 0 10px;
+}
+
+.benefit-description {
+  font-size: 14px;
+  color: #777;
+  line-height: 1.5;
+}
+
+/* --- Estilos de la sección "Testimonios" --- */
+.testimonials-section {
+  padding: 80px 40px;
+  text-align: center;
+}
+
+.recommendations {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 10px;
+}
+
+.testimonials-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+
+.testimonial-card {
+  background-color: #ffffff;
+  padding: 30px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  max-width: 350px;
+  text-align: left;
+}
+
+.stars {
+  color: #ffc107;
+  margin-bottom: 15px;
+}
+
+.testimonial-text {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+  font-style: italic;
+}
+
+.author-info {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.author-photo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.author-name {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.author-role {
+  font-size: 14px;
+  color: #888;
+  margin: 0;
+}
+
+.all-reviews-link {
+  display: inline-block;
+  margin-top: 40px;
+  text-decoration: none;
+  color: #d9534f;
+  font-weight: bold;
+}
+
+/* --- Estilos del Footer --- */
+.footer {
+  background-color: #f0f0f0;
+  padding: 40px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-social-icons {
+  display: flex;
+  gap: 20px;
+}
+
+.social-icon {
+  font-size: 24px;
+  color: #555;
+  text-decoration: none;
+}
