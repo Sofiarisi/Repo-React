@@ -37,6 +37,7 @@ import './App.css';
 import About from './About';
 import Benefits from './Benefits';
 import Testimonials from './Testimonials';
+import ProjectInfo from './ProyectInfo';
 
 // Este es tu componente principal, una función que devuelve JSX.
 function App() {
@@ -54,7 +55,7 @@ function App() {
       </header>
 
       <main>
-        {/* Sección principal (Hero) - ya la tenías */}
+        
         <section className="hero-section">
           <h1 className="logo">
             Seps<span className="logo-accent">IA</span>
@@ -66,7 +67,9 @@ function App() {
         {/* Agregamos las nuevas secciones aquí */}
         <About />
         <Benefits />
+        <ProjectInfo />
         <Testimonials />
+        
       </main>
 
       {/* Agregamos un Footer al final */}

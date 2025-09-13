@@ -38,7 +38,7 @@ function Benefits() {
         />
         <BenefitCard
           icon="📋"
-          title="Funcioabilidad"
+          title="Funcinabilidad"
           description="Potencial para reducir muertes con una detección temprana."
         />
         <BenefitCard

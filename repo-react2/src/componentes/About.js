@@ -5,7 +5,7 @@ import React from 'react';
 function TeamMember({ name, role, image }) {
   return (
     <div className="team-member-card">
-      <img src={image} alt={`Foto de ${name}`} className="member-photo" />
+      <img src={image} alt={`Foto`} className="member-photo" />
       <h4 className="member-name">{name}</h4>
       <p className="member-role">{role}</p>
     </div>
