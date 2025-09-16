@@ -8,7 +8,7 @@ function TestimonialCard({ text, author, role, image }) {
       <div className="stars">⭐⭐⭐⭐⭐</div>
       <p className="testimonial-text">"{text}"</p>
       <div className="author-info">
-        <img src={image} alt={`Foto de ${author}`} className="author-photo" />
+        {/* <img src={image} alt={`Foto de ${author}`} className="author-photo" /> */}
         <div className="author-details">
           <h4 className="author-name">{author}</h4>
           <p className="author-role">{role}</p>
@@ -33,19 +33,19 @@ function Testimonials() {
           text={commonText}
           author={commonAuthor}
           role={commonRole}
-          image="/path/to/jenny-wilson.jpg"
+          // image="/path/to/jenny-wilson.jpg"
         />
         <TestimonialCard
           text={commonText}
           author={commonAuthor}
           role={commonRole}
-          image="/path/to/jenny-wilson.jpg"
+          // image="/path/to/jenny-wilson.jpg"
         />
         <TestimonialCard
           text={commonText}
           author={commonAuthor}
           role={commonRole}
-          image="/path/to/jenny-wilson.jpg"
+          // image="/path/to/jenny-wilson.jpg"
         />
       </div>
       <a href="#" className="all-reviews-link">Ver todas las reseñas</a>

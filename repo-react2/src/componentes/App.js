@@ -32,7 +32,8 @@
 // src/componentes/App.js
 import React from 'react';
 import './App.css'; 
-
+import vectorImg from '../imagenes/Vector.png'; 
+import vectorImg2 from '../imagenes/Vector2.png'; 
 // Importamos los nuevos componentes
 import About from './About';
 import Benefits from './Benefits';
@@ -45,12 +46,12 @@ function App() {
     <div className="landing-container">
       <header className="header">
         <div className="header-left">
-          <span className="icon">🏠</span>
+          <img src={vectorImg}   alt="Inicio" className="icon" style={{ width: 32, height: 32 }} />
         </div>
         <div className="header-right">
           <a href="/login" className="nav-link">Inicio de sesion</a>
           <a href="/register" className="nav-link">Registro</a>
-          <span className="icon">👤</span>
+          <img src={vectorImg2}   alt="Inicio" className="icon" style={{ width: 32, height: 32 }} />
         </div>
       </header>
 
